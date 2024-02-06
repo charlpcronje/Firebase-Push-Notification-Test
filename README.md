@@ -17,8 +17,8 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Clone the Repository**
 
 ```bash
-git clone https://your-repository-url.git
-cd firebase-push-notification
+git clone https://github.com/charlpcronje/Firebase-Push-Notification-Test.git
+cd Firebase-Push-Notification-Test
 ```
 
 2. **Install Dependencies**
@@ -32,12 +32,12 @@ npm install
 Create a `.env` file in the root of your project directory and add the following line:
 
 ```env
-FIREBASE_SERVICE_ACCOUNT_KEY_PATH=./path/to/your/service-account-file.json
+FIREBASE_CREDENTIALS=./path/to/your/service-account.json
 ```
 
-Replace `./path/to/your/service-account-file.json` with the actual path to your Firebase service account key file.
+Replace `./path/to/your/service-account.json` with the actual path to your Firebase service account key file.
 
-4. **Run the Application**
+1. **Run the Application**
 
 To send a notification, run the script with the FCM token as an argument:
 
@@ -58,16 +58,5 @@ The application handles common errors, such as invalid FCM tokens. Make sure to 
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourgithub)
+* **Charl Cronje** - *Initial work* - [charlpcronje](https://github.com/charlpcronje)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
-
-## Acknowledgments
-
-* Firebase documentation
-* Node.js community
-```
-
-Adjust the content as necessary to fit the details and specifics of your project, such as updating the repository URL, adding any additional setup instructions, and personalizing the author section.
